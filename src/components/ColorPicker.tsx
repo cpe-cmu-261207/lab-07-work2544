@@ -1,5 +1,5 @@
-import SelectColorButton from "./SelectColorButton"
 
+import SelectColorButton from "./SelectColorButton"
 const ColorPicker = () => {
   return (
     <div>
