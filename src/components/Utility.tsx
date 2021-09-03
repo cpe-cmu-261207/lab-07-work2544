@@ -1,4 +1,4 @@
-import { Clearing, Randoming,DiscoRandoming,PixelPainterStore } from "../stores/PixelPainterStore"
+import { Clearing, Randoming,DiscoRandoming,PixelPainterStore, JubPlu } from "../stores/PixelPainterStore"
 
 
 const Utility = () => {
@@ -8,6 +8,7 @@ const Utility = () => {
       <button className="w-36" onClick={()=>Clearing()}>Clear</button>
       <button className="w-36" onClick={()=>Randoming()}>Random color</button>
       <button className="w-36" onClick={()=>DiscoRandoming()}>{state.checkDisco?"Stop":"Play Disco"}</button>
+      <button className="w-36" onClick={()=>JubPlu()}>{"Play FireWork"}</button>
     </div>
   )
 }
